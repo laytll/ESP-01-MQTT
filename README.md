@@ -6,7 +6,7 @@ Aruduino sketch for controlling ESP-01 single relay board
 This is a sketch for the cheap single relay boards that have an ESP-01. 
 Not tested with ESP-01S but should work.
 
- ESP has Tx only enabled to free pins 2 & 3 for later use.
+ ESP has Tx only enabled to free IO 2 & 3 for later use
  Tx is only really used for checking WiFi or MQTT status
  It connects to an MQTT server then:
   - announces connection with unqiue ESP8266 chip ID
