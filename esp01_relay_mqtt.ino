@@ -63,7 +63,7 @@ void setRelay(char* topic, byte* payload, unsigned int length) {
     client.publish("relay01/set/response", "off");
   }
   else {
-    client.publish("relay01/response/set", "Unknown Request");
+    client.publish("relay01/set/response", "Unknown Request");
     Serial.print("Unknown MQTT Request");
 }
 }
